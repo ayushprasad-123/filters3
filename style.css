@@ -1,0 +1,19 @@
+.btn-success:hover{
+    color:greenyellow;
+}
+
+canvas{
+    animation-name: ani;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ani{
+    0% {box-shadow: 1px 1px 30px red}
+    16.6% {box-shadow: 1px 1px 30px orange}
+    33.2% {box-shadow: 1px 1px 30px yellow}
+    49.8% {box-shadow: 1px 1px 30px green}
+    66.4% {box-shadow: 1px 1px 30px blue}
+    83% {box-shadow: 1px 1px 30px purple}
+    100% {box-shadow: 1px 1px 30px red}
+}
